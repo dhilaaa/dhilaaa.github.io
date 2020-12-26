@@ -6,67 +6,97 @@
           <title>Mental Health</title>
           <!DOCTYPE html>
 <html>
-   <head>
+    <link rel="shortcut icon"
+    href="logo.jpg">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
       <style>
-         body {
-            background-color: whitesmoke;
-           
-         }
-        
-         #header {
-             position: relative;
-             padding-top: 4px;
-             background-color: #d0e8f2;
-             margin-bottom: -22px;
-             color: #9ddfd3;
-             font-family: Verdana, Geneva, Tahoma, sans-serif;
-             padding-left: 10px;
-             padding-bottom: 4px;
 
-         }
+body {
+          background-color: whitesmoke;
+         
+       }
+      
+       #header {
+           position: relative;
+           padding-top: 15px;
+           background-color: #d0e8f2;
+           margin-bottom: -10px;
+           color: #9ddfd3;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           padding-left: 20px;
+           padding-bottom: 15px;
+       }
 
-         ul {
-             list-style-type: none;
-             /*margin: 0; */
-             padding: 18px 0px;
-             overflow: hidden;
-             text-decoration: none;
-             background-color:#31326f;
-         }
+       .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        background-color: #31326f;
+        color: #ea86b6;
+    
+}
+      
+      .nav-item {
+          background-color: #31326f;
+      }
 
-        .ini {
-            float: left;
-        }
+       .ini {
+          float: left;
+      }
 
-         li a {
-             display: block;
-             color:#ea86b6;
-             text-align: center;
-             padding: 60px 60px;
-             text-decoration: rgb(0, 3, 3);
-             background-color:#31326f;
-             display: inline;
-             font-size: 18px;
-         }
+       a:hover {
+           background-color: #ffdada;
+       }
+       
+       .content {
+        text-align: left;
+        width: 50%;
+        position: inline-block ;
+        margin: 0 auto;
+        font-size: 100%;
 
-         a:hover {
-             background-color: #ffdada;
-         }
-         p {
-             text-align: justify;
-         }
-        
-         h1 {
-            color: #31326f;
-            margin-left: 0px;
-         }
-         h2 {
-             color: #ea86b6;
-             font-family: 'Times New Roman', Times, serif;
-         }
+       }
+        p {
+           text-align: left;
+           width: 50%;
+           position: inline-block;
+           margin: 0 auto;
+           font-size: 100%;
+       }
 
-        
+       h1 {
+          color: #31326f;
+          margin-left: 0px;
+          text-align: center;
+       }
+       h2 {
+           color: #ea86b6;
+           font-family: 'Times New Roman', Times, serif;
+       }
 
+       .footer{
+           font-family: sans-serif;
+           background-color: #31326f;
+           color: white;
+           padding: 30px;
+           /* position: fixed; */
+           /* right: 20: */
+           /* width: 100%; */
+           display: block;
+           text-align: center;
+           margin-right: 0px;
+       } 
       </style>
    </head>
    
@@ -74,25 +104,74 @@
 
 <body>
     <div id="header">
-        <h1>Self Journey</h1>
-
+        <h1>Your Mental Health Should Be Your Priority</h1>
     </div>
 
-    <ul>
-        <li class="ini"><a href="index.html">Home</a></li>
-        <li class="ini"><a href="selflove.html">Self Love</a></li>
-        <li class="ini"><a href="mentalhealth.html">Mental Health</a></li>
-        <li class="ini"><a href="mentalillness.html">Mental Illness</a></li>
-     </ul>
-    
-    <h1 align="center">Self-Love: Menghargai Diri Sendiri, Kalau Bukan Kamu Siapa Lagi?</h1>
-    <img src="scare.jpg" alt="Self Care" align="center" width="500" height="500"/>
-    
-</body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #31326f;">
+        <!-- Just an image -->
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+        <img src="logo.jpg" width="30" height="30" alt="">
+        </a>
+    </nav>
+        <a class="navbar-brand" style="color: #ea86b6;">Self Journey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="navbar" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar" href="selflove.html">Self Love</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar" href="mentalhealth.html">Mental Health</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar" href="mentalillness.html">Mental Illness</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar" href="selfmastery.html">Self-Mastery</a>
+              <li class="nav-item">
+                  <a class="navbar" href="stresscoping.html">Stress & Coping</a>
+              </li>
+              <li class="nav-item">
+                  <a class="navbar" href="gettinghelp.html">Getting Help</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </br>
+    <h1 style= "text-align:center">Self-Love: Menghargai Diri Sendiri, Kalau Bukan Kamu Siapa Lagi?</h1>
+    <img src="scare.jpg" alt="Self Care" width="35%" height="50%" style="display: block; margin:auto">
+  </br>
+    <p><strong>Self love </strong> menurut Khoshaba (2012) adalah kondisi ketika kita dapat mengahargai diri sendiri dengan cara mengapresiasi diri saat kita mampu mengambil keputusan dalam perkembangan spritual, fisik, dan juga psikologis. Contohnya adalah saat kita sudah berhasil menerima kekurangan dan kelebihan, fokus terhadap tujuan hidup yang dimiliki, lalu hidup secara puas dengan usaha yang telah dilakukan.</p>
+    </br>
+    <p>Orang yang tidak memiliki <i>self love</i> cenderung akan menghukum dirinya sendiri terus-menerus dengan komentar negatif hingga menggerus harga diri dan membuatnya sulit untuk berkembang setiap harinya. Kemampuan kitadalam melakukan <i>self love</i>akan berbanding lurus dengan kemampuan kita dalam menerima cinta dari orang lain karena orang yang tidak memiliki <i>self love</i> akan sulit menjalin hubungan dengan pasangannya, diakibatkan pikiran negatif yang ada dalam dirinya yang berkata ia tidak yakin apakah ia pantas untuk dicintai, sehingga  mereka yang tidak memiliki <i>self love</i> akan terus merasa tidak aman dan <i>insecure</i>. </p>
+  </br>
+    <p>Pentingnya kemampuan self love ini antara lainnya dipengaruhi oleh empat aspek yaitu <i>self awareness, self worth, self esteem, dan self care.</i></p>
+</br>
+    <li class="content"><strong>Self awareness</strong> merupakan kesadaran diri yang berupaya memperhatikan pikiran, perilaku, perasaan, dan dampak apa yang kita lakukan terhadap orang laindalam kehidupan. </li>
+    <li class="content"><strong>Self worth</strong> adalah suatu prinsip yang dimiliki oleh seseorang ketika ia sudah mengenal dirinya sendiri. <i>Self worth</i> akan hadir ketika seseorang sudah menyadari bahwa dia tidak perlu mengikuti standar penilaian orang lain karena dia sudah mengetahui apa yang menjadi standar untuk dirinya sendiri. Orang yang memiliki kemampuan ini, bisa dipastikan akan memiliki <i>self love</i> yang tinggi dalam dirinya.</li>
+</br>
+    <li class="content"><strong>Self esteem</strong> berbeda dengan <i>self worth</i> tetapi masih memiliki hubungan. Self Esteem sendiri menurut Santrock (2007) adalah hasil evaluasi kita terhadap diri sendiri, hal ini termasuk dalam penilaian kita terhadap sesuatu yang kita kuasai dan sesuatu yang kurang kita kuasai.</li>
+</br>
+    <li class="content"><strong>Self care</strong> adalah suatu tindakan yang dilakukan seseorang untuk menjaga kesehatan dirinya sendiri baik fisik maupun mentalnya. Kita dapat melakukan berbagai kegiatan yang kita sukai untuk menjaga kesehatan. </li>
 
+
+  </br>
+    <footer>
+        <div class="footer">
+          <small>Copyright © 2020 - Dhilaaa. All Rights Reserved.</small>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 
 </html>
 
-</body>
-
-</html>
